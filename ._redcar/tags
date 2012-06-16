@@ -1,4 +1,4 @@
-1339843216
+1339844079
 Application	D:/rails/sample_app/config/application.rb	  class Application 
 ApplicationController	D:/rails/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	D:/rails/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
@@ -22,3 +22,4 @@ should have the right title	D:/rails/sample_app/spec/controllers/pages_controlle
 should have the right title	D:/rails/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
 should have the right title	D:/rails/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
 string concat	D:/rails/sample_app/spec/helpers/pages_helper_spec.rb	describe "string concat" do
+title	D:/rails/sample_app/app/helpers/application_helper.rb	  def title
