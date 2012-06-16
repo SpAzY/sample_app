@@ -1,8 +1,5 @@
 --- 
 cursor_positions: 
-  - :path: Gemfile
-    :cursor_offset: 0
-    :timestamp: 2012-06-13 16:53:53.518000 +02:00
   - :path: gitignore
     :cursor_offset: 0
     :timestamp: 2012-06-14 11:16:52.204000 +02:00
@@ -21,4 +18,22 @@ cursor_positions:
   - :path: public/hello.html
     :cursor_offset: 119
     :timestamp: 2012-06-14 11:47:34.507000 +02:00
+  - :path: Gemfile
+    :cursor_offset: 574
+    :timestamp: 2012-06-15 20:59:49.520000 +02:00
+  - :path: spec/spec_helper.rb
+    :cursor_offset: 1255
+    :timestamp: 2012-06-15 21:00:40.768000 +02:00
+  - :path: app/controllers/pages_controller.rb
+    :cursor_offset: 109
+    :timestamp: 2012-06-15 20:27:15.356000 +02:00
+  - :path: app/views/pages/home.html.erb
+    :cursor_offset: 68
+    :timestamp: 2012-06-16 12:28:57.758000 +02:00
+  - :path: app/views/pages/contact.html.erb
+    :cursor_offset: 17
+    :timestamp: 2012-06-16 12:28:54.751000 +02:00
+  - :path: app/views/pages/about.html.erb
+    :cursor_offset: 15
+    :timestamp: 2012-06-16 12:28:44.462000 +02:00
 files_to_retain: 0
