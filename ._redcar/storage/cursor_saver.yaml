@@ -18,15 +18,9 @@ cursor_positions:
   - :path: public/hello.html
     :cursor_offset: 119
     :timestamp: 2012-06-14 11:47:34.507000 +02:00
-  - :path: Gemfile
-    :cursor_offset: 574
-    :timestamp: 2012-06-15 20:59:49.520000 +02:00
   - :path: spec/spec_helper.rb
     :cursor_offset: 1255
     :timestamp: 2012-06-15 21:00:40.768000 +02:00
-  - :path: app/controllers/pages_controller.rb
-    :cursor_offset: 109
-    :timestamp: 2012-06-15 20:27:15.356000 +02:00
   - :path: app/views/pages/home.html.erb
     :cursor_offset: 68
     :timestamp: 2012-06-16 12:28:57.758000 +02:00
@@ -45,13 +39,22 @@ cursor_positions:
   - :path: public/stylesheets/blueprint/screen.css
     :cursor_offset: 1938
     :timestamp: 2012-06-16 13:03:32.136000 +02:00
-  - :path: config/routes.rb
-    :cursor_offset: 101
-    :timestamp: 2012-06-15 20:26:10.789000 +02:00
   - :path: spec/controllers/pages_controller_spec.rb
     :cursor_offset: 793
     :timestamp: 2012-06-16 12:39:01.131000 +02:00
   - :path: app/assets/stylesheets/application.css
     :cursor_offset: 0
     :timestamp: 2012-06-13 15:02:44.721000 +02:00
+  - :path: app/controllers/pages_controller.rb
+    :cursor_offset: 173
+    :timestamp: 2012-06-16 12:27:36.891000 +02:00
+  - :path: config/routes.rb
+    :cursor_offset: 101
+    :timestamp: 2012-06-15 20:26:10.789000 +02:00
+  - :path: app/helpers/application_helper.rb
+    :cursor_offset: 225
+    :timestamp: 2012-06-16 12:51:11.481000 +02:00
+  - :path: Gemfile
+    :cursor_offset: 673
+    :timestamp: 2012-06-16 19:51:44.480000 +02:00
 files_to_retain: 0
