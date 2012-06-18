@@ -21,9 +21,6 @@ cursor_positions:
   - :path: spec/spec_helper.rb
     :cursor_offset: 1255
     :timestamp: 2012-06-15 21:00:40.768000 +02:00
-  - :path: app/views/pages/home.html.erb
-    :cursor_offset: 68
-    :timestamp: 2012-06-16 12:28:57.758000 +02:00
   - :path: app/views/pages/contact.html.erb
     :cursor_offset: 17
     :timestamp: 2012-06-16 12:28:54.751000 +02:00
@@ -57,4 +54,10 @@ cursor_positions:
   - :path: Gemfile
     :cursor_offset: 673
     :timestamp: 2012-06-16 19:51:44.480000 +02:00
+  - :path: app/assets/stylesheets/custom.css
+    :cursor_offset: 945
+    :timestamp: 2012-06-17 11:48:29.011000 +02:00
+  - :path: app/views/pages/home.html.erb
+    :cursor_offset: 132
+    :timestamp: 2012-06-17 11:23:25.946000 +02:00
 files_to_retain: 0
