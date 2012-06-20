@@ -1,10 +1,11 @@
-1339846169
+1340212387
 Application	D:/rails/sample_app/config/application.rb	  class Application 
 ApplicationController	D:/rails/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	D:/rails/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
 GET 'about'	D:/rails/sample_app/spec/controllers/pages_controller_spec.rb	describe "GET 'about'" do
 GET 'contact'	D:/rails/sample_app/spec/controllers/pages_controller_spec.rb	describe "GET 'contact'" do
 GET 'home'	D:/rails/sample_app/spec/controllers/pages_controller_spec.rb	describe "GET 'home'" do
+LayoutLinks	D:/rails/sample_app/spec/requests/layout_links_spec.rb	describe "LayoutLinks" do
 PagesController	D:/rails/sample_app/app/controllers/pages_controller.rb	class PagesController 
 PagesHelper	D:/rails/sample_app/app/helpers/pages_helper.rb	module PagesHelper
 SampleApp	D:/rails/sample_app/config/application.rb	module SampleApp
@@ -17,7 +18,12 @@ pages/home.html.erb	D:/rails/sample_app/spec/views/pages/home.html.erb_spec.rb	d
 returns http success	D:/rails/sample_app/spec/controllers/pages_controller_spec.rb	it "returns http success" do
 returns http success	D:/rails/sample_app/spec/controllers/pages_controller_spec.rb	it "returns http success" do
 returns http success	D:/rails/sample_app/spec/controllers/pages_controller_spec.rb	it "returns http success" do
+should have a About page at '/about'	D:/rails/sample_app/spec/requests/layout_links_spec.rb	it "should have a About page at '/about'" do
+should have a Contact page at '/contact'	D:/rails/sample_app/spec/requests/layout_links_spec.rb	it "should have a Contact page at '/contact'" do
+should have a Help page at '/help'	D:/rails/sample_app/spec/requests/layout_links_spec.rb	it "should have a Help page at '/help'" do
+should have a Home page at '/'	D:/rails/sample_app/spec/requests/layout_links_spec.rb	it "should have a Home page at '/'" do
 should have a non-blank body	D:/rails/sample_app/spec/controllers/pages_controller_spec.rb	it "should have a non-blank body" do
+should have a signup page at '/signup'	D:/rails/sample_app/spec/requests/layout_links_spec.rb	it "should have a signup page at '/signup'" do
 should have the right title	D:/rails/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
 should have the right title	D:/rails/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
 should have the right title	D:/rails/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do

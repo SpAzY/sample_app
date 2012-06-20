@@ -45,13 +45,22 @@ cursor_positions:
   - :path: public/stylesheets/blueprint/screen.css
     :cursor_offset: 1938
     :timestamp: 2012-06-16 13:03:32.136000 +02:00
-  - :path: config/routes.rb
-    :cursor_offset: 101
-    :timestamp: 2012-06-15 20:26:10.789000 +02:00
   - :path: spec/controllers/pages_controller_spec.rb
     :cursor_offset: 793
     :timestamp: 2012-06-16 12:39:01.131000 +02:00
   - :path: app/assets/stylesheets/application.css
     :cursor_offset: 0
     :timestamp: 2012-06-13 15:02:44.721000 +02:00
+  - :path: app/controllers/users_controller.rb
+    :cursor_offset: 45
+    :timestamp: 2012-06-20 18:36:50.817000 +02:00
+  - :path: config/routes.rb
+    :cursor_offset: 57
+    :timestamp: 2012-06-20 19:10:10.024000 +02:00
+  - :path: app/views/layouts/application.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-06-20 19:10:10.006000 +02:00
+  - :path: spec/requests/layout_links_spec.rb
+    :cursor_offset: 672
+    :timestamp: 2012-06-20 19:12:42.893000 +02:00
 files_to_retain: 0
