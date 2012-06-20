@@ -1,20 +1,26 @@
-1340212799
+1340212846
 Application	D:/rails/sample_app/config/application.rb	  class Application 
 ApplicationController	D:/rails/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	D:/rails/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
 GET 'about'	D:/rails/sample_app/spec/controllers/pages_controller_spec.rb	describe "GET 'about'" do
 GET 'contact'	D:/rails/sample_app/spec/controllers/pages_controller_spec.rb	describe "GET 'contact'" do
+GET 'help'	D:/rails/sample_app/spec/controllers/pages_controller_spec.rb	describe "GET 'help'" do
 GET 'home'	D:/rails/sample_app/spec/controllers/pages_controller_spec.rb	describe "GET 'home'" do
+GET 'new'	D:/rails/sample_app/spec/controllers/users_controller_spec.rb	describe "GET 'new'" do
 LayoutLinks	D:/rails/sample_app/spec/requests/layout_links_spec.rb	describe "LayoutLinks" do
 PagesController	D:/rails/sample_app/app/controllers/pages_controller.rb	class PagesController 
 PagesHelper	D:/rails/sample_app/app/helpers/pages_helper.rb	module PagesHelper
 SampleApp	D:/rails/sample_app/config/application.rb	module SampleApp
+UsersController	D:/rails/sample_app/app/controllers/users_controller.rb	class UsersController 
+UsersHelper	D:/rails/sample_app/app/helpers/users_helper.rb	module UsersHelper
 about	D:/rails/sample_app/app/controllers/pages_controller.rb	  def about
-concats two strings with spaces	D:/rails/sample_app/spec/helpers/pages_helper_spec.rb	it "concats two strings with spaces" do
 contact	D:/rails/sample_app/app/controllers/pages_controller.rb	  def contact
+help	D:/rails/sample_app/app/controllers/pages_controller.rb	  def help
 home	D:/rails/sample_app/app/controllers/pages_controller.rb	  def home
-pages/contact.html.erb	D:/rails/sample_app/spec/views/pages/contact.html.erb_spec.rb	describe "pages/contact.html.erb" do
-pages/home.html.erb	D:/rails/sample_app/spec/views/pages/home.html.erb_spec.rb	describe "pages/home.html.erb" do
+logo	D:/rails/sample_app/app/helpers/application_helper.rb	  def logo
+new	D:/rails/sample_app/app/controllers/users_controller.rb	  def new
+returns http success	D:/rails/sample_app/spec/controllers/users_controller_spec.rb	it "returns http success" do
+returns http success	D:/rails/sample_app/spec/controllers/pages_controller_spec.rb	it "returns http success" do
 returns http success	D:/rails/sample_app/spec/controllers/pages_controller_spec.rb	it "returns http success" do
 returns http success	D:/rails/sample_app/spec/controllers/pages_controller_spec.rb	it "returns http success" do
 returns http success	D:/rails/sample_app/spec/controllers/pages_controller_spec.rb	it "returns http success" do
@@ -24,8 +30,10 @@ should have a Help page at '/help'	D:/rails/sample_app/spec/requests/layout_link
 should have a Home page at '/'	D:/rails/sample_app/spec/requests/layout_links_spec.rb	it "should have a Home page at '/'" do
 should have a non-blank body	D:/rails/sample_app/spec/controllers/pages_controller_spec.rb	it "should have a non-blank body" do
 should have a signup page at '/signup'	D:/rails/sample_app/spec/requests/layout_links_spec.rb	it "should have a signup page at '/signup'" do
+should have the right links on layout	D:/rails/sample_app/spec/requests/layout_links_spec.rb	it "should have the right links on layout" do
+should have the right title	D:/rails/sample_app/spec/controllers/users_controller_spec.rb	it "should have the right title" do
 should have the right title	D:/rails/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
 should have the right title	D:/rails/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
 should have the right title	D:/rails/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
-string concat	D:/rails/sample_app/spec/helpers/pages_helper_spec.rb	describe "string concat" do
+should have the right title	D:/rails/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
 title	D:/rails/sample_app/app/helpers/application_helper.rb	  def title
